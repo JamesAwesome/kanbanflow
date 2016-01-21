@@ -1,0 +1,32 @@
+{
+  "_id": "4ce35948f9ddf9b8c8d11e273f05bd43",
+  "name": "My first board",
+  "columns": [
+      {
+          "name": "To-do",
+          "uniqueId": "7ca19de0403f11e282ebef81383f3229"
+      },
+      {
+          "name": "Do today",
+          "uniqueId": "51568f1122ad11e2b170797953ad5957"
+      },
+      {
+          "name": "In progress",
+          "uniqueId": "7636db00403f11e282ebef81383f3229"
+      },
+      {
+          "name": "Done",
+          "uniqueId": "531d50e0452a11e396781dd58bf1fcf3"
+      }
+  ],
+  "swimlanes": [
+      {
+          "name": "Team Alpha",
+          "uniqueId": "167d908046cb11e391de452f6829aed3"
+      },
+      {
+          "name": "Team Beta",
+          "uniqueId": "31133230703711e29a57f90ce31cf483"
+      }
+  ]
+}
