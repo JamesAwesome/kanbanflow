@@ -1,0 +1,39 @@
+[
+    {
+        "columnId": "7ca19de0403f11e282ebef81383f3229",
+        "columnName": "To-do",
+        "tasksLimited": false,
+        "tasks": [
+            {
+                "_id": "41911c31f5629ad3c6ec7aa504000c40",
+                "name": "Write report",
+                "description": "",
+                "color": "red",
+                "columnId": "7ca19de0403f11e282ebef81383f3229",
+                "swimlaneId": "41c11f5771894c9294e1be21edfabebb",
+                "number": {
+                    "prefix": "devops-",
+                    "value": 543
+                }
+            }
+        ]
+    },
+    {
+        "columnId": "51568f1122ad11e2b170797953ad5957",
+        "columnName": "Do today",
+        "tasksLimited": false,
+        "tasks": []
+    },
+    {
+        "columnId": "7636db00403f11e282ebef81383f3229",
+        "columnName": "In progress",
+        "tasksLimited": false,
+        "tasks": []
+    },
+    {
+        "columnId": "31133230703711e29a57f90ce31cf483",
+        "columnName": "Done",
+        "tasksLimited": false,
+        "tasks": []
+    }
+]

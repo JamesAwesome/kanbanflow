@@ -16,6 +16,18 @@ describe Kanbanflow::Board do
     end
   end
 
+  describe '#columns' do
+    it 'Should return an array of column structs' do
+      expect(board.columns.all? { |column| column.class == Kanbanflow::Board::Column }).to be true
+    end
+  end
+
+  describe '#swimlanes' do
+    it 'Should return an array of swimlane structs' do
+      expect(board.swimlanes.all? { |swimlane| swimlane.class == Kanbanflow::Board::Swimlane }).to be true
+    end
+  end
+
   describe '#==' do
     let(:same_board) { Kanbanflow::Board.new(board_json) }
     let(:different_board_json) { board_json['_id'] = 'foo' }
